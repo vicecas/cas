@@ -1,0 +1,128 @@
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9fafb;
+        color: #333;
+        line-height: 1.6;
+    }
+    .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px 30px;
+        background: #ffffff;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    /* Header */
+    header {
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 4px solid #007bff;
+        background: linear-gradient(90deg, #007bff, #6610f2);
+        color: #fff;
+        border-radius: 10px 10px 0 0;
+    }
+    header h1 {
+        margin: 10px 0;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    header p {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .profile-pic {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+        margin: 10px auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Section Titles */
+    section h2 {
+        color: #007bff;
+        margin: 20px 0 10px;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 5px;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    /* Contact Section */
+    .contact ul {
+        list-style: none;
+        padding: 0;
+    }
+    .contact li {
+        margin: 10px 0;
+    }
+    .contact a {
+        text-decoration: none;
+        color: #6610f2;
+        font-weight: bold;
+    }
+    .contact a:hover {
+        color: #5a00c1;
+        text-decoration: underline;
+    }
+
+    /* Lists */
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    ul li {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    ul li:hover {
+        background: #eef4ff;
+        padding: 6px;
+        border-radius: 6px;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 15px;
+        background: #007bff;
+        color: #fff;
+        font-size: 14px;
+        margin-top: 30px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    /* Hover & Animation Effects */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+        header h1 {
+            font-size: 2em;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+        }
+        ul li {
+            font-size: 14px;
+        }
+    }
+</style>
